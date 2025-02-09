@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 8px;
+    width: 20px;
+    text-align: left;
+    border: 1px solid #ddd;
+    text-transform: uppercase;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input[type="number"] {
+    width: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.invoice {
+    width: 90%;
+    height: 297mm;
+    border: 1px solid #000;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+.header .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f90;
+}
+.header .logo-placeholder {
+    width: 80px;
+    height: 80px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #555;
+}
+.details {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.details div {
+    width: 48%;
+}
+.table-container {
+    margin-top: 20px;
+    width: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+}
+th {
+    background-color: #f90;
+    color: #fff;
+}
+.footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.footer .signature {
+    margin-top: 20px;
+}
+.footer .total {
+    text-align: right;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.table-container input {
+    width: 100%;
+    padding: 5px;
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+.toggle-checkbox {
+    margin: 0 ;
+    padding: 0;
+    width: auto;
+  }
+.toggle-label {
+margin-right: 10px;
+margin-left: 10px;
+font-size: 16px;
+}
+textarea{
+    width: 50%;
+}
+
+.totalValue{
+    background-color: red;
+}
