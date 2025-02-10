@@ -4,13 +4,17 @@ function addRow() {
     .getElementById("jewelryTable")
     .getElementsByTagName("tbody")[0];
   const newRow = table.insertRow();
+  newRow.classList.add("bg-gray-200"); // Add the bg-gray-50 class to the row
 
   for (let i = 0; i < 15; i++) {
     const cell = newRow.insertCell(i);
+    
+    
     if(i === 12){
       // const cell = newRow.insertCell(i);
       const txt = document.createElement("textarea");
       txt.name = "misc[]"
+      txt.classList.add("w-full", "p-3", "border", "border-gray-300", "rounded-lg"); // Add styling classes to textarea
       cell.appendChild(txt);
 
     }else if ( i !== 12){
@@ -59,6 +63,7 @@ function addRow() {
     } else {
       input.step = "1"; // For fields that don't require decimals, you can set step to "1"
     }
+    input.classList.add("w-full", "p-3", "border", "border-gray-300", "rounded-lg"); // Add styling classes to input
     cell.appendChild(input);
     }
     
