@@ -361,7 +361,7 @@ function generatePDF(event) {
   });
 
   // Save the PDF
-  doc.save(`${contact}.pdf`);
+  doc.save(`${name}.pdf`);
 
 }
 
